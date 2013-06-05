@@ -10,5 +10,5 @@ CREATE TABLE metoffice_sites (
     latitude double precision not null
 );
 CREATE INDEX metoffice_site_pkey on metoffice_sites (id);
-ROLLBACK;
---COMMIT
+--ROLLBACK;
+COMMIT
